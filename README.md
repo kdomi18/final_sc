@@ -60,3 +60,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Prequizites
+To run the program you must have node.js (we need it for npm) and xampp
+Node: https://nodejs.org/en/download/  (you need to be able to run npm commands in cmd so you can try `npm -V` to see if you have npm installed)
+xampp: https://www.apachefriends.org/download.html  (preferably get the version that supports php 8.0)
+## Deployment
+1. Download the database from https://drive.google.com/drive/folders/1FrhJF4DO-G8iDTTVq1XmW2JmMLiP8GnL?usp=sharing and extract files 
+2. Copy the extratcted folder and paste it into ...\xampp\mysql\data folder in your computer
+3. Download the code from this repository (you can use `git clone https://github.com/kdomi18/final_sc` in cmd if you have git installed)
+4. open xampp control panel and start apache service and mysql service
+5. Open 2 command prompts and navigate to the downloaded folder of the project in both of them
+6. In the first cmd run `npm run watch`
+7. in the second cmd run `php artisan serve`
+8. open your browser and follow the link provided after you put `php artisan serve`
+9. from here use credentials to register and then log in and explore the blog
+10. 
+
